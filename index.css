@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: rgb(233, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#form-container{
+    width: 900px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+   box-shadow: grey;
+   justify-content: center;
+   align-items: center;
+}
+
+#div-bg{
+background-image: url("./image/view.jpg") ; 
+background-image: cover ;  
+background-position: center;
+height: 100%;
+width: 100%;
+}
+
+#form-section{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    outline: none;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.form-feild{
+    display: flex;
+    align-items: center;
+    padding:5px 10px;
+    box-shadow: none;
+    border-radius: 5px;
+    margin: 5px 15px;
+    transition: 300ms boxshadow ease-in-out;
+    border : 1px solid rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+.form-feild{
+  color:   rgb(64, 63, 63);
+}
+
+#forget-password{
+    text-align: right;
+    margin: 0px 17px;
+}
+
+#forget-password small {
+    cursor: pointer;
+    
+}
+
+#submit-button{
+    align-items: center;
+    width: 300px;
+    margin-left: 70px;
+    margin-right: 20px;
+   margin-top: 7px;
+}
+
+.svg-group{
+    width: 20px;
+    height:20px
+}
+
+.menuIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}

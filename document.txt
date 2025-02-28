@@ -1,0 +1,2 @@
+div: block element topper and bottom margin
+span: inline element 
